@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "express-serve-static-core": "^0.1.1"
+  }
+}

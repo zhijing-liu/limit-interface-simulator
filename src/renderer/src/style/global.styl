@@ -1,0 +1,35 @@
+body
+  padding 0
+  border 0
+  margin 0
+  transition-property background-color,color!important
+  transition-duration 0.8s!important
+  transition-delay 0.8s!important
+  #app
+    width 100vw
+    height 100vh
+    overflow hidden
+    display flex
+    flex-direction column
+*
+  white-space nowrap
+  user-select none
+// 全局class
+.weight
+  font-weight bold
+.noScrollBar
+  &::-webkit-scrollbar
+    width 0
+    height 0
+.cursor
+  cursor pointer
+// 主题动画
+.darknessChanging
+  transition-property background-color,color!important
+  transition-duration 0.8s!important
+  transition-delay 0.8s!important
+  *
+    transition-property background-color,color!important
+    transition-duration 0.8s!important
+    transition-delay 0.8s!important
+
